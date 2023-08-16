@@ -1,0 +1,8 @@
+lgbm_params:
+  colsample_bytree: 0.36
+  learning_rate: 0.90
+  n_estimators: 135
+  num_leaves: 22
+  reg_alpha: 0.00001
+  reg_lambda: 0.00001
+  subsample: 0.58
