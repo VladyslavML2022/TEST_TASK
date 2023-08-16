@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Test DigitClassifier')
     parser.add_argument('--img', type=str, default='./data/img_1.jpg', help='Select test image for inference')
-    parser.add_argument('--algorithm', choices=['cnn','rf','rand'], required=True, help='Specify an algorithm')
+    parser.add_argument('--algorithm', choices=['cnn','rf','rand'], default='cnn', help='Specify an algorithm')
     args = parser.parse_args()
 
     image = Image.open(args.img)
