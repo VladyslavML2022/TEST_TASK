@@ -1,6 +1,6 @@
 # TEST_TASK
 
-## Test task for data science engineer position
+## DS Engineer Test task
 ## Guidance
 
 ### Prerequisites
